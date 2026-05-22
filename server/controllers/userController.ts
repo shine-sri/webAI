@@ -334,7 +334,7 @@ export const purchaseCredits = async (req: Request, res: Response) => {
                     price_data: {
                         currency: 'usd',
                         product_data: {
-                            name: `AiSiteBuilder - ${plan.credits} credits`
+                            name: `webAI - ${plan.credits} credits`
                         },
                         unit_amount: Math.floor(transaction.amount) * 100
                     },
